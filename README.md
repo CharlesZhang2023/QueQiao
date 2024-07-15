@@ -1,6 +1,6 @@
 # Ego-Task-Manager (QueQiao) 
 
-Language🌍：  [English ](./README)｜ [简体中文](./README_zh.md)
+Language🌍：  [English ](./README.md)｜ [简体中文](./README_zh.md)
 
 ### Project Introduction
 
