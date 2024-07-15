@@ -1,6 +1,6 @@
 # Ego-Task-Manager 鹊桥
 
-Language🌍：  [English ](./README)｜ [简体中文](./README_zh.md)
+Language🌍：  [English ](./README.md)｜ [简体中文](./README_zh.md)
 
 ### 📒项目简介
 
