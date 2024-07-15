@@ -1,3 +1,4 @@
+# This Script is used to provide a GUI to generate waypoints for Egoplanner and save them.
 import turtle
 import math
 from hover import *
@@ -10,7 +11,6 @@ screen.setup(width=800, height=800)
 def draw_grid():
     grid_turtle = turtle.Turtle()
     grid_turtle.speed(0)
-    # 关闭绘图动画
     turtle.tracer(False)
     grid_turtle.penup()
     grid_turtle.hideturtle()
@@ -87,20 +87,13 @@ def go_home():
 
 # Circle Around 
 def circle_around():
-    # 获取当前乌龟位置
     current_x, current_y = t.pos()
-    # 记录当前角度
     current_heading = t.heading()
-    
-    # 计算前方50个单位的位置
     #t.forward(50)
     circle_center_x, circle_center_y = t.pos()
-    
-    # 盘旋一圈
     t.rt(90)
     for i in range(1):
         t.circle(60)
-    # 返回初始位置和初始角度
     
 
     #waypoints.append("Circle around")
@@ -108,7 +101,7 @@ def circle_around():
     pos = (current_x+math.cos(math.radians(current_heading))*60, current_y+math.sin(math.radians(current_heading))*60)
     logging=waypoint_generate(pos, current_heading-180, 60, 6)
     waypoints.extend(logging)
-    t.setheading(current_heading-180)
+    t.setheading(current_heading)
     t.pendown()
     
 # Circle and return

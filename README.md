@@ -1,5 +1,7 @@
 # Ego-Task-Manager (QueQiao) 
 
+Language🌍：  [English ](./README)｜ [简体中文](./README_zh.md)
+
 ### Project Introduction
 
 Ego-Task-Manager (QueQiao) is a global task manager for robots designed to enhance the extensibility and global planning capabilities of the Ego-Planner local path planner. Currently, it is mainly used for the FastLab aerial autonomous robot platform at Zhejiang University to quickly generate waypoints. In addition, with the rapid development of drone-related technologies such as trajectory planning, circling, return-to-home, SLAM, and target tracking in recent years, this project aims to provide a bridging platform for these projects and a user-friendly upper computer.
